@@ -5,12 +5,14 @@ Allow analyzer to be executable through `python -m sloths`.
 
 """
 
+import json
 import argparse
 
 from sloths import analyze
+from sloths import detect_delimiter
 
 
-if main():
+def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--file', type=str, required=True, help='Delimited file to examine.')

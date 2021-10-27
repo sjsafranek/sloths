@@ -2,13 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import csv
-import platform
-import json
 import pandas
 import decimal
-import random
 import argparse
-from datetime import datetime
 
 
 def detect_delimiter(path_to_file):

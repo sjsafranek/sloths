@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name = 'sloths',
-    version = '0.0.1',
+    version = '0.0.2',
     description = 'Provides metadata about fields within delimited files',
     author = 'Stefan Safranek',
     author_email = 'sjsafranek@gmail.com',
