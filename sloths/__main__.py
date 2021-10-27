@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 """
-Allow analyzer to be executable through `python -m analyzer`.
+Allow analyzer to be executable through `python -m sloths`.
 
 """
 
 import argparse
 
-from analyzer import analyze
+from sloths import analyze
 
 
 if main():
